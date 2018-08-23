@@ -73,14 +73,14 @@ public class VoiceInterface {
                         }
                     });
                 } else {
-                    handler.post(new Runnable() {
+                    handler.postDelayed(new Runnable() {
                         @Override
                         public void run() {
                             ((MainActivity) currentActivity).takePicture(false);
                             timerDelay = 0;
                             session.success();
                         }
-                    });
+                    }, 100);
                 }
 
                 return session.suspend();
@@ -102,14 +102,14 @@ public class VoiceInterface {
                     return session.failure();
                 }
 
-                handler.post(new Runnable() {
+                handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         ((MainActivity) currentActivity).takePicture(false);
                         timerDelay = 0;
                         session.success();
                     }
-                });
+                }, 100);
 
                 return session.suspend();
             }

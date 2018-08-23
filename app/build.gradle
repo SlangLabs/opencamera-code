@@ -29,14 +29,6 @@ android {
     }
 }
 
-allprojects {
-    repositories {
-        maven {
-            url "http://maven.slanglabs.in:8080/artifactory/gradle-release/"
-        }
-    }
-}
-
 dependencies {
     implementation('in.slanglabs.sdk.android:slang_lib:+@aar') {
         transitive = true

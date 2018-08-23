@@ -14,7 +14,7 @@ allprojects {
         jcenter()
         google()
         maven {
-            url "http://maven.slanglabs.in:8080/artifactory/gradle-dev-local/"
+            url "http://maven.slanglabs.in:8080/artifactory/gradle-release/"
         }
     }
 }
