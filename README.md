@@ -4,4 +4,4 @@ This is a clone of the source code from https://sourceforge.net/projects/opencam
 
 The primary purpose of this is to show a sample integration of Slang's voice interface on top of this app.
 
-Check for VoiceInterface.java for the primary interface code
+Check for https://github.com/SlangLabs/opencamera-code/blob/master/app/src/main/java/net/sourceforge/opencamera/VoiceInterface.java for the primary interface code
