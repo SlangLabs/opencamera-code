@@ -1,3 +1,1 @@
-include ':app', ':slang_lib'
-
-project(':slang_lib').projectDir = new File('../../../polyglot/client/slang-android-sdk/slang_lib')
+include ':app'
