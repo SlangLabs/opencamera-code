@@ -17,7 +17,7 @@ public class OpenCameraApplication extends Application {
 			Log.d(TAG, "onCreate");
         super.onCreate();
         checkAppReplacingState();
-        VoiceInterface.init(this, "a256b39ecbcf427fa2078f1d40e56ddd", "d7057d03bad940f1acfe8cea9ef3a4cd", false);
+        VoiceInterface.init(this, "b596b0a94fff4ca6aa3edf729d591506", "c80525dd5fa146d6a3a1aba91fc5d6b9", false);
     }
 
     private void checkAppReplacingState() {
